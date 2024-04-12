@@ -8,5 +8,5 @@ it('Page content test', async () => {
   // console.log(response.status);
   // console.log(body);
   expect(response.status).to.equal(200);
-  expect(body).to.match(/Hello world, everything is awesome/);
+  expect(body).to.match(/Hello again world, everything is awesome/);
 })
